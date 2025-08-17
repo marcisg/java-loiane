@@ -1,6 +1,5 @@
 package basico.Exercicios.aula13;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ex17{
