@@ -17,7 +17,7 @@ public class ex14 {
         multa = Math.max(multa, 0);
         excesso = Math.max(excesso, 0);
 
-        System.out.printf("O excesso de quilos de peixe foi de: %d ocasionando uma multa de: %.2f \n",excesso, multa );
+        System.out.printf("O excesso de quilos de peixe foi de: %d ocasionando uma multa de: %.2fR$ \n",excesso, multa );
 
     }
 
