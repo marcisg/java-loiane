@@ -36,11 +36,6 @@ public class ex13 {
 
         }
         System.out.println(" "+ resultadofinalmesmo);
-
-
-
-
-
-
+        scan.close();
     }
 }

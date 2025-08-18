@@ -2,7 +2,7 @@ package condicionais.exerciciosloop;
 
 import java.util.Scanner;
 
-public class ex5 {
+public class ex05 {
 
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class ex5 {
         System.out.println("Entre com o número de habitantes do primeiro País: ");
         paisA = scan.nextDouble();
 
-        while ((paisA == 0) && (paisA >= 1000000000)){
+        while ((paisA <= 0) || (paisA >= 1000000000)){
             System.out.println("Entrada inválida. Digite novamente");
             System.out.println("Entre com o número de habitantes do primeiro País: ");
             paisA = scan.nextDouble();
@@ -28,7 +28,7 @@ public class ex5 {
         System.out.println("Entre com o número da taxa de crescimento primeiro País: ");
         double taxapaisA = scan.nextDouble();
 
-        while (taxapaisA != 0  && taxapaisA >= 100){
+        while (taxapaisA <= 0  || taxapaisA >= 100){
             System.out.println("Entrada inválida. Digite novamente");
             System.out.println("Entre com o número da taxa de crescimento primeiro País: ");
             taxapaisA = scan.nextDouble();
@@ -38,12 +38,7 @@ public class ex5 {
         System.out.println("Entre com o número de habitantes do segundo País: ");
         paisB = scan.nextDouble();
 
-        while ((paisB == paisA)){
-            System.out.println("Entrada inválida. Digite novamente");
-            System.out.println("Entre com o número de habitantes do segundo País: ");
-            paisB = scan.nextDouble();
-        }
-        while ((paisB == 0) && (paisB >= 1000000000)){
+        while ((paisB <= paisA) || (paisB >= 1000000000)){
             System.out.println("Entrada inválida. Digite novamente");
             System.out.println("Entre com o número de habitantes do segundo País: ");
             paisB = scan.nextDouble();
@@ -53,7 +48,7 @@ public class ex5 {
         System.out.println("Entre com o número da taxa de crescimento segundo País: ");
         double taxapaisB = scan.nextDouble();
 
-        while (taxapaisB != 0  && taxapaisB >= 100){
+        while (taxapaisB <= 0  || taxapaisB >= 100){
             System.out.println("Entrada inválida. Digite novamente");
             System.out.println("Entre com o número da taxa de crescimento primeiro País: ");
             taxapaisB = scan.nextDouble();
@@ -67,7 +62,8 @@ public class ex5 {
         }
         while (paisA <= paisB);
         System.out.println("Depois de " + cont + " anos o primeiro País vai passar o  segundo País em população.");
-
+        scan.close();
     }
+
 
 }

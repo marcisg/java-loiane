@@ -2,7 +2,7 @@ package condicionais.exerciciosloop;
 
 import java.util.Scanner;
 
-public class ex3 {
+public class ex03 {
 
     public static void main(String[] args) {
 
@@ -90,11 +90,12 @@ public class ex3 {
 
         System.out.println("Estado civil válido.");
         System.out.println("Dados cadastrados com sucesso");
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
+        System.out.println("Nome: " + nome + ".");
+        System.out.println("Idade: " + idade + " anos.");
         System.out.printf("Salário: %.2fR$", salario);
         System.out.println(" ");
         System.out.println("Sexo: " + sexo);
         System.out.println("EStado civil: " + civil);
+        scan.close();
     }
 }

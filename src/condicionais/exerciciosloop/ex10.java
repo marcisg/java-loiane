@@ -24,6 +24,7 @@ public class ex10 {
         for(; num1 < num2; num1++){
             System.out.println(" "+ num1);
         }
+        scan.close();
 
 //        for (int i = num1; i <= num2 ; i++) {
 //            System.out.println(" "+ i);

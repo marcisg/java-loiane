@@ -21,14 +21,9 @@ public class ex14 {
             } else {
                 contimpar++;
             }
-
-
         }
         System.out.println("Dentre os números digitados temos "+ contpar+ " números pares e "+ contimpar+ " números ímpares.");
+        scan.close();
     }
-
-
-
-
 }
 

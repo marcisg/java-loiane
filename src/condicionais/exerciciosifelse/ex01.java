@@ -2,7 +2,7 @@ package condicionais.exerciciosifelse;
 
 import java.util.Scanner;
 
-public class ex1 {
+public class ex01 {
 
     public static void main(String[] args) {
 

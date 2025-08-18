@@ -1,6 +1,6 @@
 package condicionais.exerciciosloop;
 
-public class ex6 {
+public class ex06 {
 
     public static void main(String[] args) {
 

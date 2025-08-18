@@ -19,5 +19,6 @@ public class ex17 {
 
         }
         System.out.println(" "+ somatorio);
+        scan.close();
     }
 }

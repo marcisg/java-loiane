@@ -2,7 +2,7 @@ package condicionais.exerciciosloop;
 
 import java.util.Scanner;
 
-public class ex2 {
+public class ex02 {
 
     public static void main(String[] args) {
 
@@ -20,5 +20,6 @@ public class ex2 {
             senha = scan.nextLine();
         }
         System.out.println("Login efetuado com sucesso");
+        scan.close();
     }
 }

@@ -1,6 +1,6 @@
 package basico.Exercicios.aula13;
 
-public class ex1 {
+public class ex01 {
 
     public static void main(String[] args) {
 

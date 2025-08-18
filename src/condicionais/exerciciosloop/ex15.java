@@ -19,5 +19,6 @@ public class ex15 {
             a = a + b ;
             b = aux;
         }
+        scan.close();
     }
 }

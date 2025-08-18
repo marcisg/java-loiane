@@ -1,9 +1,8 @@
 package basico.Exercicios.aula13;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
-public class ex4 {
+public class ex04 {
 
     public static void main(String[] args) {
 

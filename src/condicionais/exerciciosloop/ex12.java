@@ -24,6 +24,7 @@ public class ex12 {
             resultado = multi * i;
             System.out.println(" " + multi + " x " + i + " = " + resultado);
         }
+        scan.close();
 
     }
 

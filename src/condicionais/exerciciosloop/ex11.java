@@ -29,6 +29,7 @@ public class ex11 {
             soma = num1 + (num1+1);
         }
         System.out.println("A soma do intervalo dos números inseridos é: " +soma);
+        scan.close();
 
     }
 }

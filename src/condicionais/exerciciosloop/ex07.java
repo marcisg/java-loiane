@@ -2,7 +2,7 @@ package condicionais.exerciciosloop;
 
 import java.util.Scanner;
 
-public class ex7 {
+public class ex07 {
 
     public static void main(String[] args) {
 
@@ -45,7 +45,8 @@ public class ex7 {
                 numeromaior = numeronovo;
             }
         }
-        System.out.println("O " + numeromaior + " é o maior de todos.");
+        System.out.println("O número " + numeromaior + " é o maior de todos.");
+        scan.close();
 
 //        for (;num1 > num2 ;){
 //            for (;num1 > num3;){

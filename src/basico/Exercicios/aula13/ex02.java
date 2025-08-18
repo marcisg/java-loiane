@@ -1,9 +1,8 @@
 package basico.Exercicios.aula13;
 
-import java.util.Random;
 import java.util.Scanner;
 
-public class ex2 {
+public class ex02 {
 
     public static void main(String[] args) {
 

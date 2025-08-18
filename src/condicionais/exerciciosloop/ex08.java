@@ -2,7 +2,7 @@ package condicionais.exerciciosloop;
 
 import java.util.Scanner;
 
-public class ex8 {
+public class ex08 {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class ex8 {
         }
         System.out.println("A soma de todos os números é: "+ aux);
         System.out.println("A média de todos os números é: "+ (aux/5));
-
+        scan.close();
 //        for (int i = 0 ; i < 5 ; i++){
 //            System.out.println("Digite o "+ (i+1) + " número: ");
 //            numero = scan.nextInt();

@@ -56,7 +56,7 @@ public class ex21 {
                 System.out.println();
             }
         }
-
+        scan.close();
 
     }
 }

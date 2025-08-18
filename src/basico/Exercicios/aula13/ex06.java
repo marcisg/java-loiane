@@ -2,7 +2,7 @@ package basico.Exercicios.aula13;
 
 import java.util.Scanner;
 
-public class ex6 {
+public class ex06 {
 
     public static void main(String[] args) {
 

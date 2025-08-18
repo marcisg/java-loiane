@@ -1,6 +1,6 @@
 package condicionais.exerciciosloop;
 
-public class ex4 {
+public class ex04 {
 
     public static void main(String[] args) {
 
@@ -21,8 +21,5 @@ public class ex4 {
         }
         while (paisA <= paisB);
             System.out.println("Depois de " + cont + " anos o País A vai passar o País B em população.");
-
-
-
         }
 }
