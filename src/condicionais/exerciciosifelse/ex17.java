@@ -16,5 +16,6 @@ public class ex17 {
         }else {
             System.out.println("não é bissexto");
         }
+        scan.close();
     }
 }

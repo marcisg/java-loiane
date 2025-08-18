@@ -18,6 +18,6 @@ public class ex3 {
         } else {
             System.out.println("Sexo inválido.");
         }
-
+        scan.close();
     }
 }

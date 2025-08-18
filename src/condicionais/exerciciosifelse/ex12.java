@@ -53,7 +53,7 @@ public class ex12 {
         System.out.printf("Total de descontos: R$ %.2f ", totaldescontos);
         System.out.println(" ");
         System.out.printf("Salário Líquido: R$ %.2f ", salarioliquido);
-
+        scan.close();
 
 
 

@@ -6,26 +6,35 @@ public class ex4 {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+
+        Scanner read = new Scanner(System.in);
 
         System.out.println("Digite uma letra");
-        String letra = scan.next();
+        char letra = read.next().charAt(0);
 
-        switch (letra) {
-            case "A":
-            case "E":
-            case "I":
-            case "O":
-            case "U":
-            case "a":
-            case "e":
-            case "i":
-            case "o":
-            case "u":
-                System.out.println("Vogal."); break;
-            default:
-                System.out.println("Consoante.");
+        if (!Character.isLetter(letra)) {
+            System.out.println("Entrada inválida, digite apenas letras.");
+        } else {
+            switch (letra) {
+                case 'A':
+                case 'E':
+                case 'I':
+                case 'O':
+                case 'U':
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    System.out.println("Vogal."); break;
+                default:
+                    System.out.println("Consoante.");
+            }
         }
+        read.close();
+
+
+
          //outra forma de fazer
 
         /*if ( letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e") ||

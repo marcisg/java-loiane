@@ -22,6 +22,7 @@ public class ex8 {
         } else if (terceirovalor <= primeirovalor && terceirovalor <= segundovalor) {
             System.out.println("O valor mais barato é " + terceirovalor);
         }
+        scan.close();
     }
 }
 

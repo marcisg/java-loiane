@@ -8,7 +8,7 @@ public class ex10 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Que turno você estuda? (M- Matutino, V- Vespertino e N- Noturno ");
+        System.out.println("Que turno você estuda? (M- Matutino, V- Vespertino e N- Noturno) ");
         String turno = scan.next();
         boolean teste = turno == "J";
 
@@ -22,5 +22,6 @@ public class ex10 {
             System.out.println("Valor Inválido");
             System.out.println(turno);
         }
+        scan.close();
     }
 }

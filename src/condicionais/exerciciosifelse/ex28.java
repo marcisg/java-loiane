@@ -13,6 +13,7 @@ public class ex28 {
         System.out.println("O pagamento será no cartão Tabajara? (sim ou não)");
         String pagamento = scan.nextLine();
         System.out.println("Qual carne você deseja você deseja?");
+        System.out.println("Carnes do dia: Alcatra, Filé Duplo e Picanha");
         String tipodecarne = scan.nextLine();
         System.out.println("Quantos quilos de carne você deseja?");
         double kgdecarne = scan.nextDouble();
@@ -47,10 +48,10 @@ public class ex28 {
         }
         if ("Picanha".equalsIgnoreCase(tipodecarne)){
             if (kgdecarne<=5){
-                precopicanha = 4.90;
+                precopicanha = 6.90;
                 valortotal = kgdecarne * precopicanha;
             }else {
-                precopicanha = 5.80;
+                precopicanha = 7.80;
                 valortotal = kgdecarne * precopicanha;
             }
         }
@@ -72,7 +73,7 @@ public class ex28 {
         System.out.printf("Valor do desconto..........%.2f R$", valordescontado);
         System.out.println(" ");
         System.out.printf("..............VALOR FINAL %.2f R$ ", diferencadevalor);
-
+        scan.close();
 
     }
 

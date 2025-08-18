@@ -35,5 +35,8 @@ public class ex11 {
         System.out.println(" ");
         System.out.printf("Novo salário após o aumento: %.2fR$", (reajuste + salario));
         System.out.println(" ");
+        scan.close();
     }
+
+
 }

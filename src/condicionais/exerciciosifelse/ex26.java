@@ -50,11 +50,7 @@ public class ex26 {
                 }
             }
 
-
-
-
-
-
+            scan.close();
 
         }
 }

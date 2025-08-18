@@ -24,5 +24,6 @@ public class ex20 {
         }else {
             System.out.println("Notas inválidas, tente novamente.");
         }
+        scan.close();
     }
 }

@@ -28,5 +28,6 @@ public class ex5 {
             }
 
         }
+        scan.close();
     }
 }

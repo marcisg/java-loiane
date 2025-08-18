@@ -52,6 +52,7 @@ public class ex24 {
             }else {
                 System.out.println("É um número decimal.");
             }
+            scan.close();
     }
 }
 

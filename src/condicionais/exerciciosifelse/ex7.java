@@ -30,7 +30,7 @@ public class ex7 {
         } else if (terceironumero <= primeironumero && terceironumero <= segundonumero) {
             System.out.println("O menor número é " + terceironumero);
         }
-
+        scan.close();
     }
 }
 

@@ -47,6 +47,6 @@ public class ex14 {
         System.out.printf("A primeira nota foi %.2f e a segunda nota %.2f sendo a média %.2f.", nota1, nota2, media);
         System.out.println(" ");
         System.out.printf("O aluno foi %s com conceito %c.",situacao, conceito);
-
+        scan.close();
     }
 }

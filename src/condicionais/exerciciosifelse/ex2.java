@@ -16,5 +16,6 @@ public class ex2 {
         } else {
             System.out.println("O número é negativo.");
         }
+        scan.close();
     }
 }

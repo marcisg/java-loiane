@@ -17,5 +17,6 @@ public class ex22 {
             System.out.printf("%d é ímpar.", num);
             System.out.println(" ");
         }
+        scan.close();
     }
 }

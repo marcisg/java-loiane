@@ -24,5 +24,6 @@ public class ex6 {
         } else {
             System.out.println("Os números devem ser diferentes!");
         }
+        scan.close();
     }
 }

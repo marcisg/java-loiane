@@ -36,6 +36,7 @@ public class ex19 {
             unitexto = (numero == 1) ? "unidade" : "unidades";
             System.out.printf("%d %s. ", numero, unitexto);
         }
+        scan.close();
     }
 }
 

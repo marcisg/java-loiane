@@ -36,5 +36,6 @@ public class ex13 {
                 System.out.println("Valor inválido");
                 break;
         }
+        scan.close();
     }
 }

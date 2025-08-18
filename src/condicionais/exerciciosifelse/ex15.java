@@ -30,14 +30,13 @@ public class ex15 {
 
         if (isTriangulo){
             if (lado1 == lado2 && lado2 == lado3){
-                System.out.println("É um triângulo equilátero");
+                System.out.println("E ele é equilátero");
             } else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
-                System.out.println("Éum triângulo isósceles");
+                System.out.println("E ele é isósceles");
             } else if (lado1 != lado2 && lado2!= lado3) {
-                System.out.println("Éum triângulo escaleno");
+                System.out.println("E ele é escaleno");
             }
         }
-
-
+        scan.close();
     }
 }

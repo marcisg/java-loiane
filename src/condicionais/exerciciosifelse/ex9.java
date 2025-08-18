@@ -30,5 +30,6 @@ public class ex9 {
         } else if (terceironum <= primeironum && terceironum <= segundonum && segundonum <= primeironum){
             System.out.println("A ordem decrescente dos números é " + primeironum + " -> " + segundonum + " -> " + terceironum);
         }
+        scan.close();
     }
 }

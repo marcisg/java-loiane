@@ -40,6 +40,7 @@ public class ex27 {
             totalfrutaspreco = totalfrutaspreco - desconto;
         }
         System.out.printf("O valor a ser pago é: %.2f ", totalfrutaspreco);
+        scan.close();
 
         }
 

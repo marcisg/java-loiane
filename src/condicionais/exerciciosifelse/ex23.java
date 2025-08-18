@@ -10,11 +10,21 @@ public class ex23 {
         System.out.println("Digite um número ");
         double num = scan.nextDouble();
 
-        if (num % 2 == 0 || num % 2 == 1){
+        double numarredondado = Math.floor(num);
+
+        if (num == numarredondado) {
             System.out.println("É um número inteiro.");
-        }else {
+        } else {
             System.out.println("É um número decimal.");
         }
+        scan.close();
+
+        //Acima como o exercício pede, abaixo como eu tinha pensado.
+        //if (num % 2 == 0 || num % 2 == 1){
+        //    System.out.println("É um número inteiro.");
+        //}else {
+        //    System.out.println("É um número decimal.");
+        // }
 
     }
 }

@@ -21,6 +21,7 @@ public class ex18 {
         }else {
             System.out.println("Opção inválida.");
         }
+        scan.close();
 
     }
 }
