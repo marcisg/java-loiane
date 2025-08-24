@@ -10,13 +10,10 @@ public class ex17 {
 
         System.out.println("Digite um número para calcular o fatorial dele:");
         int num = scan.nextInt();
-        int a;
         int somatorio = num;
-
 
         for (int i = 1; i < num; i++) {
             somatorio = i * somatorio;
-
         }
         System.out.println(" "+ somatorio);
         scan.close();
