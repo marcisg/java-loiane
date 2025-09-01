@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex02 {
 
+    /*2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

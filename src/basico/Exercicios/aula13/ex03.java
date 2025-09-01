@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex03 {
 
+    /*3. Faça um Programa que peça dois números e imprima a soma.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

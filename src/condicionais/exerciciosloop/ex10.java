@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex10 {
 
+    /*10. Faça um programa que receba dois números inteiros e gere os números inteiros no intervalo compreendido por eles.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

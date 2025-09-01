@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex04 {
 
+    /*4. Faça um Programa que peça as 4 notas bimestrais e mostre a média.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

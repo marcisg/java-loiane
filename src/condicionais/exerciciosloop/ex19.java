@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex19 {
 
+    /*19. Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

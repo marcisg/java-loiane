@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex22 {
 
+    /*22. Altere o programa de cálculo dos números primos, informando, caso o número não seja primo, e por quais números ele é divisível.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

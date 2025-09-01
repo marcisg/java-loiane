@@ -4,6 +4,17 @@ import java.util.Scanner;
 
 public class ex28 {
 
+    /*28. O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
+                   Até 5 kg              Acima de 5 kg
+    File Duplo  R$4,90 por kg            R$5,80 por kg
+    Alcatra     R$5,90 por kg            R$6,80 por kg
+    Picanha     R$6,90 por kg            R$7,80 por kg
+
+    Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente.
+    Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total a compra.
+    Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra:
+    tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

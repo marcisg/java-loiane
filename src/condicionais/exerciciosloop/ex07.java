@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex07 {
 
+    /*7. Faça um programa que leia 5 números e informe o maior número.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

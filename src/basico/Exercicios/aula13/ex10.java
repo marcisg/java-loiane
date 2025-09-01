@@ -5,16 +5,18 @@ import java.util.Scanner;
 
 public class ex10 {
 
-        public static void main(String[] args) {
+    /* 10. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.*/
 
-            Scanner scan = new Scanner(System.in);
-            DecimalFormat formatar = new DecimalFormat("0.00");
+    public static void main(String[] args) {
 
-            System.out.println("Digite a temperatura em Celsius");
-            double valorf = scan.nextDouble();
-            double resultado = ((valorf * 1.8) + 32);
-            System.out.println("Em graus Farenheit essa temperatura é " + formatar.format(resultado));
+        Scanner scan = new Scanner(System.in);
+        DecimalFormat formatar = new DecimalFormat("0.00");
 
-        }
+        System.out.println("Digite a temperatura em Celsius");
+        double valorf = scan.nextDouble();
+        double resultado = ((valorf * 1.8) + 32);
+        System.out.println("Em graus Fahrenheit essa temperatura é " + formatar.format(resultado));
+
+    }
 
 }

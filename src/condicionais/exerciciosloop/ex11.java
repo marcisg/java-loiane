@@ -6,6 +6,8 @@ import static java.lang.String.*;
 
 public class ex11 {
 
+    /*11. Altere o programa anterior para mostrar no final a soma dos números.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

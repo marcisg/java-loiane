@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class ex09 {
 
+    /* 9. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C=(5*(F-32)/9).*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

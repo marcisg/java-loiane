@@ -7,6 +7,7 @@ public class ex31 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+        Scanner read = new Scanner(System.in);
 
         System.out.println("Lojas Tabajara.");
         double produtos = 0;
@@ -27,9 +28,14 @@ public class ex31 {
             System.out.printf("Troco: R$ %.2f.\n", dinheiro);
             produtos = 0;
             produtoatual = 1;
-            System.out.println("Deseja ");
+
+            System.out.println("Deseja continuar? (s ou n)");
+            char continuar = read.next().charAt(0);
+
+            if (continuar == 'n'){
+                ativo = false;
+
+            }
         }
-
     }
-
 }

@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex24 {
 
+    /*24. Faça um programa que calcule o mostre a média aritmética de N notas.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

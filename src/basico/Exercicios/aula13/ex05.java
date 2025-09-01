@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class ex05 {
 
+    /*5. Faça um Programa que converta metros para centímetros.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

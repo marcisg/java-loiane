@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class ex28 {
 
+    /*28. Faça um programa que calcule o valor total investido por um colecionador na sua coleção de CDs e o valor médio gasto em cada um deles.
+    O usuário deverá informar a quantidade de CDs e o valor para em cada um.*/
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
