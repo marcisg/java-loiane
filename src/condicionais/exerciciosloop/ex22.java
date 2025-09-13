@@ -16,7 +16,7 @@ public class ex22 {
         String divisores = "";
 
         if (num > 1) {
-            for (int i = 2; i <= Math.sqrt(num); i++) { // da para usar o num/2, mas a rais quadrada é mais eficiente, precisando de menos validações.
+            for (int i = 2; i <= Math.sqrt(num); i++) { // da para usar o num/2, mas a raiz quadrada é mais eficiente, precisando de menos validações.
                 if (num % i == 0) {
                     verificador = false;
                     divisores += i + " e " + (num/i) + "; ";
